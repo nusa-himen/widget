@@ -35,6 +35,290 @@
               <img src="https://images.fotmob.com/image_resources/logo/teamlogo/8496_xsmall.png" />
           </div>
         </a>
+
+<style>
+
+      
+ .match-time{
+        margin-top: 0px;
+    }
+      .live-badge { color: #fff; background: #e11; padding: 2px 6px; border-radius: 4px; font-weight: 700; }
+  .live-pulse {
+    display: inline-block;
+    position: relative;
+    padding: 2px 6px;
+    border-radius: 4px;
+  }
+  .live-pulse::after {
+    content: "";
+    position: absolute;
+    inset: -4px;
+    border-radius: 6px;
+    animation: pulse 1.6s infinite;
+    opacity: 0.35;
+    background: #ff0000;
+    filter: blur(6px);
+  }
+  @keyframes pulse {
+    0% { transform: scale(.9); opacity: .25; }
+    50% { transform: scale(1.05); opacity: .45; }
+    100% { transform: scale(.9); opacity: .25; }
+  }
+  .match-countdown { 
+    position: absolute;
+    top: 9px;
+    background: #d3d3d31d;
+    border-radius: 9999px;
+    padding: 9px;
+   }
+    .container-01 {
+            width: 100%;
+            background: #1a1a1a;
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-left: 15rem;
+            padding-right: 15rem;
+            position: fixed;
+            top: 0;
+        }
+
+        @media (max-width: 1024px) {
+            .container-01 {
+                padding-left: 2rem;
+                padding-right: 2rem;
+            }
+        }
+
+        .logo-01 {
+            width: 10rem;
+        }
+
+        .socialmedia-01 {
+            display: flex;
+            gap: 5px;
+        }
+
+        .socialmedia-icon-01 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 8px;
+            width: 1.75rem;
+            height: 1.75rem;
+        }
+
+        .socialmedia-icon-01 i {
+            color: white;
+            font-size: 17px;
+        }
+
+        .container-02 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: black;
+            height: 95vh;
+        }
+
+        .ad-01 {
+            width: 50%;
+            margin-top: 12px;
+            display: flex;
+            justify-content: center;
+        }
+
+        @media (max-width: 1024px) {
+            .ad-01 {
+                width: 100%;
+            }
+        }
+
+        .container-03 {
+            width: 100%;
+            background: #1a1a1a;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 16px;
+            height: 53px;
+        }
+
+        .container-03 h2 {
+            color: white;
+            font-size: 15px;
+            font-weight: 500;
+        }
+
+        @media (max-width: 1024px) {
+            .container-03 {
+                width: 100%;
+            }
+        }
+
+        .container-04 {
+            width: 50%;
+            background: #1a1a1a;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 16px;
+        }
+
+        .container-04 h2 {
+            color: white;
+            font-size: 15px;
+            font-weight: 500;
+        }
+
+        @media (max-width: 1024px) {
+            .container-04 {
+                width: 100%;
+            }
+        }
+
+        .container-05 {
+            margin-top: 16px;
+            width: 100%;
+            background: #262626;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            display: flex;
+            align-items: center;
+            padding: 16px;
+            gap: 8px;
+        }
+
+        .container-05 img {
+            width: 30px;
+        }
+
+        .container-05 h2 {
+            color: white;
+            font-size: 13px;
+            font-weight: 500;
+        }
+
+        .container-06 {
+            position: relative;
+            width: 100%;
+            height: 5.2rem;
+            background: #1a1a1a;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 9px;
+        }
+
+.rounded-bottom-red{
+  border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+
+        .container-06:hover {
+            background: #2e2c2c;
+            border-top-left-radius: 0px;
+            border-top-right-radius: 0px;
+        }
+
+        .container-07 {
+            display: flex;
+            gap: 9px;
+            width: 100%;
+            align-items: center;
+            justify-content: flex-end;
+            font-weight: 500;
+        }
+
+        .container-07 span {
+            color: white;
+            font-size: 14px;
+            word-wrap: break-word;
+line-height: 15px;
+        }
+
+        .container-07 img {
+            width: 30px;
+        }
+
+        @media (max-width:1024px) {
+            .container-07 span {
+                font-size: 12px;
+            }
+        }
+
+
+ .live-now{
+                width: 48px;
+                display: flex;
+                justify-content: center;
+                background: red;
+                border-radius: 50px;
+                color: white;
+                font-size: 9px;
+                animation: blinkani 1s infinite;
+
+            }
+
+            @keyframes blinkani {
+0% { background-color: red; }
+50% { background-color: darkred; }
+100% { background-color: red; }
+}
+
+        .container-08 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #9ca3af;
+            font-weight: 600;
+            width: 15rem;
+            font-size: 12px;
+        }
+
+        .container-09 {
+            display: flex;
+            gap: 9px;
+            width: 100%;
+            align-items: center;
+            font-weight: 500;
+        }
+
+        .container-09 img {
+            width: 30px;
+        }
+
+        .container-09 span {
+            display: inline-block;
+            color: white;
+            font-size: 14px;
+    line-height: 15px;
+        }
+
+        @media (max-width:1024px) {
+            .container-09 span {
+                font-size: 12px;
+            }
+           .container-10{
+             width: 10rem
+           }
+        }
+
+        .container-10{
+            width: 15rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #9f9f9f;
+            font-size: 12px;
+            font-weight: 500;
+        }
+</style>
       
   
 
